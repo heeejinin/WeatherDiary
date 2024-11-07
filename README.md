@@ -7,14 +7,13 @@
 - **Language** : Java
 - **Build** : Gradle
 - **JDK** : JDK 1.8
-- **IDE** : IntelliJ Community Version
-- **Testing** : JUnit, Postman
-- **Database** : Maria DB, JPA, JDBC (연습용)
-- **Utilities** : Lombok, JSON
-- **Documentation** : springdoc (Swagger)
-- **Open API** : Open Weather Map api
+- **Database** : Maria DB
+- **Open API** : Open Weather Map API
+- **Library** : Lombok, JSON, JUnit, JPA, Springdoc(Swagger), JDBC(연습용)
+  
 
 ## 💡 주요 기능
+### ✅ 일기 API
 #### 1. 일기 작성 API
 - POST / create / diary
 - 파라미터 : 날짜(형식 : yyyy-MM-dd), 일기 내용
@@ -39,13 +38,13 @@
 - 파라미터 : 삭제할 날짜(형식 : yyyy-MM-dd)
 - 정책 : 해당 날짜의 모든 일기 삭제
 
-#### ✅ Spring Scheduler
+### ✅ Spring Scheduler
 - 매일 새벽 1시에 날씨 데이터를 외부 API 에서 받아다 DB에 저장해두는 로직을 구현
 
-#### ✅ logback
+### ✅ logback
 - logback을 이용하여 프로젝트 로그와 에러 로그를 파일로 저장
 
-#### ✅ API documentation
+### ✅ API documentation
 - Swagger를 이용하여 API documentation 생성
 
 ## 📝 구현 시 문제점
