@@ -37,4 +37,7 @@ out/
 .vscode/
 
 #로깅파일은 업로드 되지 않도록 설정
-logs
+/logs/
+
+# env file
+application.properties
